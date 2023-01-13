@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#logo {
+  height: 150px;
+  width: 350px;
+  margin-top: 130px;
+  font-weight: bold;
+  font-size: 110px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: darkolivegreen;
+}
+.search {
+  height: 70px;
+  width: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: gray;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#searchbar {
+  height: 25px;
+  width: 450px;
+  border-radius: 5px;
+  border: 0.8px solid black;
+}
+#searchBtn {
+  height: 25px;
+  border-radius: 5px;
+  border: 0.8px solid black;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  background-color: darkolivegreen;
+}
+#suggests {
+  width: 540px;
+  background-color: white;
+  padding: 10px;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: darkolivegreen;
+}
+li button {
+  border: 0;
+  background-color: white;
+  font-weight: bold;
+}
+/* .list:hover {
+  background-color: darkslategray;
+} */

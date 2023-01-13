@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  border: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: green;
+  display: flex;
+  color: white;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+.hd {
+  margin-left: 70px;
+}
+#item {
+  list-style-type: none;
+}
+.sub {
+  border: 1px solid black;
+}
+.lists {
+  display: flex;
+  justify-content: space-between;
+}
+.del {
+  background-color: red;
+  color: white;
+}
+#filter {
+  height: 20px;
+}
